@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* discos */
+
+.black {
+    width: 28px;
+    height: 28px;
+    border-radius: 30px;
+    border: groove 4px #353533;
+    background-color: #353533;
+}
+
+.red {
+    width: 28px;
+    height: 28px;
+    border-radius: 30px;
+    border: groove 4px #ea4e2a;
+    background-color: #ea4e2a;
+}
+
+
+/* tabuleiro */
+
+#base {
+    display: flex;
+    width: 325px;
+    flex-direction: row;
+    background-color: #2f75b4;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    border: outset 5px #2f75b4;
+    justify-content: center;
+}
+
+.Pilar0,
+.Pilar1,
+.Pilar2,
+.Pilar3,
+.Pilar4,
+.Pilar5,
+.Pilar6 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Block {
+    width: 38px;
+    height: 38px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: inset 4px hsl(209, 59%, 24%);
+    margin: 2px;
+}
+
+#vitoria {
+    width: 300px;
+    color: #ea4e2a;
+    height: 35px;
+    margin: 0 auto;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+#botao {
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+    color: white;
+    padding-left: 50px;
+    font-style: oblique;
+}
+
+@media(min-width:768px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        margin: 0 auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    /* discos */
+    .black {
+        width: 68px;
+        height: 68px;
+        border-radius: 50px;
+        border: groove 4px #353533;
+        background-color: #353533;
+    }
+    .red {
+        width: 68px;
+        height: 68px;
+        border-radius: 50px;
+        border: groove 4px #ea4e2a;
+        background-color: #ea4e2a;
+    }
+    /* tabuleiro */
+    #base {
+        display: flex;
+        width: 725px;
+        flex-direction: row;
+        background-color: #2f75b4;
+        margin: 0 auto;
+        margin-top: 5px;
+        padding: 5px;
+        border: outset 5px #2f75b4;
+        justify-content: center;
+    }
+    .Pilar0,
+    .Pilar1,
+    .Pilar2,
+    .Pilar3,
+    .Pilar4,
+    .Pilar5,
+    .Pilar6 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Block {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: inset 4px #193e60;
+        margin: 3px;
+    }
+    #vitoria {
+        width: 350px;
+        color: #ea4e2a;
+        height: 35px;
+        margin: 0 auto;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: 50px;
+        padding-bottom: 2px;
+    }
+    #botao {
+        width: 200px;
+        height: 20px;
+        margin: 0 auto;
+        color: white;
+        padding-left: 50px;
+        font-style: oblique;
+    }
+}
