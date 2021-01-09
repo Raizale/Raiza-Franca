@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+   
+</head>
+<body>
+    <script>
+        function even_odd(){
+            var num =   document.getElementById('number').value;
+
+            if ( num % 2){
+                document.getElementById('result').innerHTML = "Entered Number is Odd";
+            }
+            else{
+                document.getElementById('result').innerHTML = "Entered Number is Even";
+            }
+        }
+    </script>
+</head>
+
+    
+        <div id="error"></div>
+        
+            <h2> Find Given Number is Even or Odd </h2>
+            <p>Enter a value</p>
+            <input type="text" id="number" />
+            <button onclick="even_odd();">Check</button><br />
+            <div id="result"><b></b></div>
+        
+
+</body>
+</html>
