@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+}
+textarea{
+    width: 80%;
+    
+}
+button{
+    margin: 20px;
+   
+}
+div{
+    width: 80%;
+}
+
+    @media(min-width:768px){ 
+
+        body{
+            width: 100%;
+        }
+        textarea{
+            width: 50%;
+        }
+        button{
+            margin: 20px;
+        }
+        div{
+            width: 50%;
+        }
+
+    }
+
