@@ -1,0 +1,118 @@
+/*
+Theme Name: Netflix
+Author: Kenzie Academy
+Author URI: kenzie.com.br;
+Version: 1.0
+ 
+--------------------------------------------
+SUGESTÃO DE ESTRUTURAÇÃO BASE 
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** BODY
+**** TOPO
+**** RODAPÉ
+**** PÁGINA INICIAL
+*/
+
+/* VARIÁVEIS */
+:root{
+  
+}
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+
+
+
+/*BODY*/
+	body{
+		 font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+		 background-color: black;
+		
+
+	}
+
+/*TOPO*/
+	header.topo{ 
+				
+	}
+
+	.topo img{
+		width: 100px;
+		margin-left: 20px;
+	}
+
+	header h2{
+		color:white;
+		font-size: 50px;
+		text-align: center;
+		
+		
+		
+	}
+
+
+
+/*PÁGINA INICIAL*/
+	div.pg-home{
+		
+		
+  	}
+	ul{
+		column-count: 4;
+		column-gap: 60px;
+		display: inline-flex;
+		margin-left:150px;
+		padding: 60px;
+		
+		
+	}
+
+	img[alt=Gabriel]{
+		width: 186px;
+	}
+	img[alt=Maria]{
+		width: 186px;
+	}
+	img[alt=Renato]{
+		width: 186px;
+		border: 4.5px solid white;
+		
+	}
+	.addPerfil h3{
+		margin-top: 78px;
+		line-height: 20px;
+	}
+
+ h3{
+	color: gray;
+	text-align: center;
+	padding-right: 10px;
+
+	
+ }
+ .destaque{
+	 color: white;
+ }
+ 
+ 
+
+/*RODAPÉ*/
+	
+button{
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: black;
+	color: gray;
+	padding: 10px 42px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40%;
+	
+	
+	
+}
+
+
